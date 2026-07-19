@@ -22,7 +22,7 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 - [x] Docker neden ortaya çıktı, hangi sorunları çözdü
 - [x] Sanallaştırma (Virtualization) nedir
 - [x] Hypervisor nedir, Type 1 vs Type 2
-- [ ] Container vs VM mimarisi (namespace, cgroups)
+- [x] Container vs VM mimarisi (namespace, cgroups)
 - [x] Docker kurulumu (AWS EC2 - Amazon Linux 2023 üzerinde)
 - [x] Sudo olmadan Docker kullanımı (`usermod -aG docker`)
 - [ ] İlk Dockerfile yazımı
