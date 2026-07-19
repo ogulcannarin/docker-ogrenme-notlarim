@@ -1,0 +1,13 @@
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Editör dosyaları
+.vscode/
+.idea/
+
+# Docker ile ilgili
+*.log
+
+# Ortam değişkenleri
+.env
