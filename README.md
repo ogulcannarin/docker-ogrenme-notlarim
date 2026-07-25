@@ -32,6 +32,10 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 1. [Image nedir, layer mantığı](./02-dockerfile-ve-imajlar/01-image-nedir.md)
 2. [Dockerfile (henüz doldurulmadı)](./02-dockerfile-ve-imajlar/02-dockerfile.md)
 
+### `05-pratik-projeler` içeriği
+
+1. [İlk container denemem — run, ps, start/stop/rm farkları](./05-pratik-projeler/01-ilk-container/notlar.md)
+
 ## ✅ İlerleme Takibi
 
 - [x] Docker neden ortaya çıktı, hangi sorunları çözdü
@@ -47,6 +51,7 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 - [ ] İlk Dockerfile yazımı (FROM, RUN, COPY, CMD...)
 - [x] Temel komutlar (`run`, `ps`, `images`, `stop`, `rm`, `rmi`, `pull`...)
 - [x] Kapsamlı CLI komut referansı (image, container, volume, network, sistem, compose)
+- [x] İlk pratik container denemem (`run`, `ps`, `start`/`stop`/`rm` farkları, `-d`, `--name`)
 - [ ] Volume ve bind mount farkı
 - [ ] Docker network kavramı
 - [ ] Docker Compose ile çoklu servis yönetimi
