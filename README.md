@@ -46,6 +46,7 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 - [x] Sudo olmadan Docker kullanımı (`usermod -aG docker`)
 - [ ] İlk Dockerfile yazımı (FROM, RUN, COPY, CMD...)
 - [x] Temel komutlar (`run`, `ps`, `images`, `stop`, `rm`, `rmi`, `pull`...)
+- [x] Kapsamlı CLI komut referansı (image, container, volume, network, sistem, compose)
 - [ ] Volume ve bind mount farkı
 - [ ] Docker network kavramı
 - [ ] Docker Compose ile çoklu servis yönetimi
