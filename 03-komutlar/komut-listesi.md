@@ -101,7 +101,7 @@ Bu komut nginx'i arka planda çalıştırır, `web` ismini verir, host'un 8080 p
 | `docker compose ps` | Compose ile başlatılan servisleri listeler |
 | `docker compose logs` | Servislerin loglarını gösterir |
 
-> Detaylı Compose notları henüz eklenmedi → [`04-docker-compose/notlar.md`](../04-docker-compose/notlar.md)
+> Detaylı Compose notları → [`04-docker-compose/01-docker-compose-nedir.md`](../04-docker-compose/01-docker-compose-nedir.md)
 
 ## Notlar
 > (Deneyip anladıkça buraya kendi notlarımı ekleyeceğim — özellikle hangi bayrağı ne zaman kullandığımı hatırlamak için pratik örnekler.)

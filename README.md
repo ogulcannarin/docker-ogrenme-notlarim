@@ -2,6 +2,10 @@
 
 Bu repo, Docker öğrenme sürecimde tuttuğum kişisel notlardan oluşuyor. Amaç: sadece komutları ezberlemek değil, **neden var olduğunu ve ne sorunu çözdüğünü** anlayarak ilerlemek.
 
+## 🎉 Kilometre Taşı: Docker 101 Tamamlandı!
+
+Temel kavramlar, kurulum, image/container ilişkisi, CLI komutları ve container'lara bağlanma/inceleme konularını kapsayan "Docker 101" aşamasını tamamladım. Sıradaki hedef: Dockerfile yazımı ve gerçek bir uygulamayı containerize etmek.
+
 ## 📌 Neden bu repo?
 
 Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. Bu yüzden her yeni konuyu öğrendikçe buraya kendi cümlelerimle not düşeceğim.
@@ -32,12 +36,22 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 1. [Image nedir, layer mantığı](./02-dockerfile-ve-imajlar/01-image-nedir.md)
 2. [Dockerfile (henüz doldurulmadı)](./02-dockerfile-ve-imajlar/02-dockerfile.md)
 
+### `03-komutlar` içeriği
+
+1. [Kapsamlı CLI komut listesi (image, container, volume, network, sistem, compose)](./03-komutlar/komut-listesi.md)
+2. [Container'lara bağlanmak ve içini incelemek (exec, inspect)](./03-komutlar/02-container-icine-baglanma-ve-inceleme.md)
+
+### `04-docker-compose` içeriği
+
+1. [Docker Compose nedir, neden ihtiyaç var, docker-compose.yml yapısı](./04-docker-compose/01-docker-compose-nedir.md)
+
 ### `05-pratik-projeler` içeriği
 
 1. [İlk container denemem — run, ps, start/stop/rm farkları](./05-pratik-projeler/01-ilk-container/notlar.md)
 
 ## ✅ İlerleme Takibi
 
+### Docker 101 (tamamlandı 🎉)
 - [x] Docker neden ortaya çıktı, hangi sorunları çözdü
 - [x] Sanallaştırma (Virtualization) nedir
 - [x] Hypervisor nedir, Type 1 vs Type 2
@@ -48,13 +62,16 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 - [x] Image nedir, layer (katman) mantığı
 - [x] Docker kurulumu (AWS EC2 - Amazon Linux 2023 üzerinde)
 - [x] Sudo olmadan Docker kullanımı (`usermod -aG docker`)
-- [ ] İlk Dockerfile yazımı (FROM, RUN, COPY, CMD...)
 - [x] Temel komutlar (`run`, `ps`, `images`, `stop`, `rm`, `rmi`, `pull`...)
 - [x] Kapsamlı CLI komut referansı (image, container, volume, network, sistem, compose)
 - [x] İlk pratik container denemem (`run`, `ps`, `start`/`stop`/`rm` farkları, `-d`, `--name`)
+- [x] Container'lara bağlanmak (`docker exec -it ... sh`) ve inceleme (`docker inspect`)
+
+### Sıradaki hedefler
+- [ ] İlk Dockerfile yazımı (FROM, RUN, COPY, CMD...)
 - [ ] Volume ve bind mount farkı
 - [ ] Docker network kavramı
-- [ ] Docker Compose ile çoklu servis yönetimi
+- [x] Docker Compose nedir, docker-compose.yml yapısı, temel komutlar
 - [ ] Bir uygulamayı containerize etme (ilk gerçek proje)
 
 > Bu liste ilerledikçe güncellenecek. Yeni bir konu öğrendiğimde hem ilgili klasöre not ekleyeceğim hem de burada işaretleyeceğim.
