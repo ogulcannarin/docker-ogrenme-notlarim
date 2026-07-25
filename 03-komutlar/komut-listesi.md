@@ -31,6 +31,8 @@
 | `docker exec -it <container> bash` | Çalışan container'ın içine terminal ile girer |
 | `docker logs <container>` | Container'ın loglarını gösterir |
 | `docker logs -f <container>` | Logları canlı takip eder (`-f` = follow) |
+| `docker logs --tail 50 <container>` | Logların sadece son 50 satırını gösterir |
+| `docker logs -t <container>` | Logları zaman damgasıyla (timestamp) gösterir |
 | `docker inspect <container>` | Container hakkında detaylı bilgi verir |
 | `docker rename <eski> <yeni>` | Container'ın adını değiştirir |
 | `docker cp <container>:<yol> <yerel-yol>` | Container ile host arasında dosya kopyalar |

@@ -20,6 +20,7 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 | [`03-komutlar`](./03-komutlar) | Sık kullanılan Docker komutları ve açıklamaları |
 | [`04-docker-compose`](./04-docker-compose) | Çoklu container yönetimi, docker-compose.yml örnekleri |
 | [`05-pratik-projeler`](./05-pratik-projeler) | Öğrenirken yaptığım küçük denemeler, mini projeler |
+| [`06-container-101`](./06-container-101) | Container felsefesi, Union File System, aynı image'dan çoklu container, stdin/stdout/stderr ve docker logs |
 
 ### `01-temel-kavramlar` içeriği (sırasıyla okuma önerisi)
 
@@ -49,6 +50,12 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 
 1. [İlk container denemem — run, ps, start/stop/rm farkları](./05-pratik-projeler/01-ilk-container/notlar.md)
 
+### `06-container-101` içeriği (sırasıyla okuma önerisi)
+
+1. [Container felsefesi ve Union File System](./06-container-101/01-container-felsefesi-ve-union-fs.md)
+2. [Aynı image'dan birden fazla container](./06-container-101/02-ayni-imajdan-cok-container.md)
+3. [stdin / stdout / stderr ve docker logs](./06-container-101/03-stdin-stdout-stderr-ve-docker-logs.md)
+
 ## ✅ İlerleme Takibi
 
 ### Docker 101 (tamamlandı 🎉)
@@ -73,6 +80,14 @@ Bir şeyi öğrenirken yazıya dökmek, hatırlamayı kalıcı hale getiriyor. B
 - [ ] Docker network kavramı
 - [x] Docker Compose nedir, docker-compose.yml yapısı, temel komutlar
 - [ ] Bir uygulamayı containerize etme (ilk gerçek proje)
+
+### Container 101 (devam ediyor)
+- [x] Container felsefesi: tek uygulama, image immutable, container disposable
+- [x] "Sorunu container'da değil image'da çöz" prensibi
+- [x] Union File System (read-only image layers + writable container layer)
+- [x] Aynı image'dan birden fazla bağımsız container oluşturma
+- [x] stdin / stdout / stderr kavramı
+- [x] `docker logs` komutu ve bayrakları (`-f`, `--tail`, `-t`, `--since`, `--until`)
 
 > Bu liste ilerledikçe güncellenecek. Yeni bir konu öğrendiğimde hem ilgili klasöre not ekleyeceğim hem de burada işaretleyeceğim.
 
